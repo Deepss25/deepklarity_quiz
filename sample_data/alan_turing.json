@@ -1,0 +1,42 @@
+{
+    "id": 1,
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "title": "Alan Turing",
+    "summary": "",
+    "key_entities": {
+        "people": [],
+        "organizations": [],
+        "locations": []
+    },
+    "sections": [
+        "Contents",
+        "Early life and education",
+        "Career and research",
+        "Personal life",
+        "Death",
+        "Government apology and pardon",
+        "See also",
+        "References",
+        "Further reading",
+        "External links"
+    ],
+    "quiz": [
+        {
+            "question": "What is the title of this article?",
+            "options": [
+                "Alan Turing",
+                "Option A",
+                "Option B",
+                "Option C"
+            ],
+            "answer": "Alan Turing",
+            "difficulty": "easy",
+            "explanation": "Title from article"
+        }
+    ],
+    "related_topics": [
+        "Related Topic 1",
+        "Related Topic 2"
+    ],
+    "raw_html": null
+}

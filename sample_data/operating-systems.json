@@ -1,0 +1,118 @@
+{
+    "id": 5,
+    "url": "https://en.wikipedia.org/wiki/Operating_system",
+    "title": "Operating system",
+    "summary": "An operating system (OS) is system software that manages computer hardware and software resources, providing common services for computer programs. The article defines OS, discusses its core component (the kernel), and outlines various types including multicomputer, distributed, embedded, real-time, hypervisor, and library operating systems. It also covers the market share of popular OSs as of September 2024, noting Android as the most popular, followed by Microsoft Windows, iOS/iPadOS, macOS, and Linux. The text highlights the specific characteristics and applications of different OS types, such as the exact timing requirements of hard real-time systems and the virtual machine capabilities of hypervisors.",
+    "key_entities": {
+        "people": [],
+        "organizations": [],
+        "locations": []
+    },
+    "sections": [
+        "Definition and purpose",
+        "Types of operating systems",
+        "Multicomputer operating systems",
+        "Distributed systems",
+        "Embedded operating systems",
+        "Real-time operating systems",
+        "Hypervisor",
+        "Library operating systems",
+        "Components (Kernel)",
+        "Popular operating systems and market share"
+    ],
+    "quiz": [
+        {
+            "question": "What is an operating system primarily defined as?",
+            "options": [
+                "A type of application software for specific tasks",
+                "System software that manages computer hardware and software resources",
+                "A physical component of a computer's memory",
+                "A network protocol for internet communication"
+            ],
+            "answer": "System software that manages computer hardware and software resources",
+            "difficulty": "easy",
+            "explanation": "The article states: 'An operating system ( OS ) is system software that manages computer hardware and software resources, and provides common services for computer programs.'"
+        },
+        {
+            "question": "As of September 2024, which operating system holds the largest market share?",
+            "options": [
+                "Microsoft Windows",
+                "iOS and iPadOS",
+                "Android",
+                "macOS"
+            ],
+            "answer": "Android",
+            "difficulty": "easy",
+            "explanation": "The article mentions: 'As of September 2024 [update] , Android is the most popular operating system with a 46% market share...'"
+        },
+        {
+            "question": "What is the name for the software that is always running within an operating system?",
+            "options": [
+                "Application",
+                "System program",
+                "Kernel",
+                "Middleware"
+            ],
+            "answer": "Kernel",
+            "difficulty": "medium",
+            "explanation": "The text states: 'Operating systems include the software that is always running, called a kernel —but can include other software as well.'"
+        },
+        {
+            "question": "What is a distinguishing factor of embedded operating systems?",
+            "options": [
+                "They are always connected to a network.",
+                "They are designed to load user-installed software.",
+                "They do not load user-installed software.",
+                "They are exclusively used in supercomputers."
+            ],
+            "answer": "They do not load user-installed software.",
+            "difficulty": "medium",
+            "explanation": "The article explains: 'The distinguishing factor [of embedded operating systems] is that they do not load user-installed software.'"
+        },
+        {
+            "question": "Which type of real-time system requires exact timing and is common in manufacturing and avionics?",
+            "options": [
+                "Soft real-time systems",
+                "Distributed systems",
+                "Hard real-time systems",
+                "Library operating systems"
+            ],
+            "answer": "Hard real-time systems",
+            "difficulty": "medium",
+            "explanation": "The text specifies: 'Hard real-time systems require exact timing and are common in manufacturing , avionics , military, and other similar uses.'"
+        },
+        {
+            "question": "What is the primary function of a hypervisor?",
+            "options": [
+                "To manage multiple CPUs that share memory.",
+                "To provide operating system services in the form of libraries.",
+                "To run a virtual machine.",
+                "To guarantee processing events by a specific moment in time."
+            ],
+            "answer": "To run a virtual machine.",
+            "difficulty": "medium",
+            "explanation": "The article defines: 'A hypervisor is an operating system that runs a virtual machine.'"
+        },
+        {
+            "question": "How do multicomputers typically differ from distributed systems in terms of their CPU and memory architecture?",
+            "options": [
+                "Multicomputers share a single memory pool among all CPUs, while distributed systems have separate memory.",
+                "Multicomputers have multiple CPUs, each with its own memory, while distributed systems are distinct, networked computers.",
+                "Multicomputers are dispersed globally, whereas distributed systems are localized.",
+                "Multicomputers primarily use middleware, while distributed systems rely on a single kernel."
+            ],
+            "answer": "Multicomputers have multiple CPUs, each with its own memory, while distributed systems are distinct, networked computers.",
+            "difficulty": "hard",
+            "explanation": "The text states: 'A multicomputer or cluster computer has multiple CPUs, each of which has its own memory.' and 'A distributed system is a group of distinct, networked computers—each of which might have their own operating system and file system. Unlike multicomputers, they may be dispersed anywhere in the world.'"
+        }
+    ],
+    "related_topics": [
+        "System software",
+        "Computer hardware",
+        "Virtualization",
+        "Cloud computing",
+        "Mobile operating systems",
+        "Desktop operating systems",
+        "Embedded systems",
+        "Real-time computing"
+    ]}
